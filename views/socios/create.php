@@ -6,42 +6,45 @@
   
         <form class="row g-3 needs-validation" novalidate>
             <div class="col-md-12 success">
-                <label for="inputNombre" class="form-label text-success">Nombre</label>
-                <input type="text" class="form-control" id="soc_nombre" name="soc_nombre" placeholder="" required>
-                <div class="valid-feedback">
-                    Válido!
+                <label for="inputNombre" class="form-label text-success"></label>
+                <div class="input-group mb-3">
+                <span class="input-group-text" id="soc_nombre">Nombre</span>
+                <input type="text" class="form-control" placeholder="ingrese nombre" aria-label="Username" aria-describedby="basic-addon1">
                 </div>
             </div>
             
             <div class="col-md-6">
-                <label for="inputEmail" class="form-label text-success">Cédula</label>
+                <label for="inputEmail" class="form-label text-success"></label>
 
-                <input type="number" class="form-control" id="soc_nombre" name="soc_nombre" placeholder="" required>
-                <div id="inputEmail" class="invalid-feedback">
-                   
-                </div>
-            </div>
-            <div class="col-md-6">
-                <label for="inputDireccion" class="form-label text-success">Dirección</label>
-                <input type="text" class="form-control " id="soc_direccion" name="soc_direccion" placeholder="" required>
-                <div  class="invalid-feedback">
-                    
-                </div>
-            </div>
-            <div class="col-md-6">
-                <label for="inputEmail" class="form-label text-success">Teléfono</label>
-
-                <input type="number" class="form-control" id="soc_telefono" name="soc_telefono" placeholder="" required>
-                <div id="inputEmail" class="invalid-feedback">
-          
-                </div>
-            </div>
-            <div class="col-md-6">
-                <label for="inputDireccion" class="form-label text-success">Correo</label>
                 <div class="input-group mb-3">
-  <span class="input-group-text" id="basic-addon1">@</span>
-  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-</div>
+                    <span class="input-group-text" id="soc_cedula">Cedula</span>
+                    <input type="text" class="form-control" placeholder="ingrese cedula" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+            </div>
+            <div class="col-md-6">
+                <label for="inputDireccion" class="form-label text-success"></label>
+                
+                <div class="input-group mb-3">
+                <span class="input-group-text" id="soc_direccion">Direccion</span>
+                <input type="text" class="form-control" placeholder="ingrese direccion" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+                    
+               
+            </div>
+            <div class="col-md-6">
+                <label for="inputEmail" class="form-label text-success"></label>
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="soc_telefono">Telfono</span>
+                    <input type="text" class="form-control" placeholder="ingrese telefono" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+            </div>
+            <div class="col-md-6">
+                <label for="inputDireccion" class="form-label text-success"></label>
+                <div class="input-group mb-3">
+                        <span class="input-group-text" id="soc_correo">@</span>
+                        <input type="text" class="form-control" placeholder="ingrese correo" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
             </div>
             
             <div class="col-12">

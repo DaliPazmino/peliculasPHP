@@ -5,6 +5,8 @@
        
         <br><br>
         <div class="container">
+        <?php
+        $row= $result->fetch_assoc();?>
         <table class="table table-success table-striped">
             <thead>
                 <tr>
@@ -15,7 +17,7 @@
             <tbody>
             <tr>
                     <th scope="row" id="soc_id">ID</th>
-                    <td></td>
+                    <td> <?php echo $row ['apl_id'];?></td>
                 </tr>
                 <tr>
                     <th scope="row" id="soc_nombre">Nombre</th>
@@ -38,9 +40,13 @@
                 </tr>
             </tbody>
         </table>
-        <button type="button" class="btn btn-danger"> <img src="../../img/lecho.png" width="30px" heigth="30px"></button>
+
+                   
+        <button type="button" class="btn btn-danger"> <img src="../../img/lecho.png" ></button>
         </div>
-        
+        <form action="" method="post">
+          <input type 
+        </form>
       
 
     </div>

@@ -1,5 +1,5 @@
 <?php include '../template/header.php' ?>
-
+<?php include '../../model/conectar.php'?>
 <section class="content">
     <div>
        

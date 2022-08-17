@@ -3,7 +3,7 @@
 <section class="content">
  
     <div class="container p-5  "  >
-        <h2> Genero </h2>
+        <h2></h2>
   
         <form class="row g-3 needs-validation" novalidate>
             <div class="col-md-8 success">

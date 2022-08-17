@@ -13,14 +13,14 @@
 <div class="container">
   <div class="row">
     <div class="col align-self-start">
-      <h3>Socios Registrados</h3>
+      <h3>Generos</h3>
     </div>
     <div class="col align-self-center">
       
     </div>
     <div class="col align-self-end">
       <button type="button" class="btn text-white"   style='background-color:#008d62;'>
-       Agregar   <img src="../../img/agregar-usuario.png" >
+       Agregar   <img src="../../img/pelicula.png" >
       </button>
     </div>
   </div>
@@ -39,22 +39,15 @@
     <tr>
       <th scope="col"># Numero</th>
       <th scope="col">ID</th>
-      <th scope="col">Cedula</th>
       <th scope="col">Nombre</th>
-      <th scope="col">Dirección</th>
-      <th scope="col">Telefono</th>
-      <th scope="col">Correo</th>
       <th scope="col">Opciones</th>
+      
     </tr>
   </thead>
   <tbody>
     
     <tr>
       <th scope="row"> </th>
-      <td>  </td>
-      <td>  </td>
-      <td>  </td>
-      <td>  </td>
       <td>  </td>
       <td>  </td>
 

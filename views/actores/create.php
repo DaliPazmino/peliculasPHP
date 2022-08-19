@@ -3,14 +3,14 @@
 <section class="content">
  
     <div class="container p-5  "  >
-        <h2></h2>
+        <h2> Actor </h2>
   
         <form class="row g-3 needs-validation" novalidate>
             <div class="col-md-8 success">
-                <label for="inputNombre" class="form-label text-success"></label>
+                <label for="act_input" class="form-label text-success"></label>
                 <div class="input-group mb-3 ">
-                <span class="input-group-text text-white  "  id="soc_nombre"  style="background-color:#338b85;"> Nombre</span>
-                <input type="text" class="form-control" placeholder="ingresar nombre" aria-label="Username" aria-describedby="basic-addon1">
+                <span class="input-group-text text-white  "  id="act_nombre"  style="background-color:#338b85;"> Nombre</span>
+                <input type="text" class="form-control"  placeholder="ingresar nombre " aria-label="Username" aria-describedby="basic-addon1">
                 </div>
             </div>
             
@@ -30,25 +30,6 @@
 
 </section>
 <script>
-
-        (function () {
-            'use strict'
-
-            
-            var forms = document.querySelectorAll('.needs-validation')
-
-            Array.prototype.slice.call(forms)
-                .forEach(function (form) {
-                    form.addEventListener('submit', function (event) {
-                        if (!form.checkValidity()) {
-                            event.preventDefault()
-                            event.stopPropagation()
-                        }
-
-                        form.classList.add('was-validated')
-                    }, false)
-                })
-        })()
     </script>
 <?php include '../template/footer.php' ?>
 

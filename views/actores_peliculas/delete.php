@@ -14,26 +14,33 @@
             </thead>
             <tbody>
             <tr>
-                    <th scope="row" id="soc_id">ID</th>
-                    <td></td>
-                </tr>
-                <tr>
-                    <th scope="row" id="soc_nombre">Nombre</th>
-                    <td></td>
-                <tr>
+                        <th scope="row" id="apl_id">ID</th>
+                        <td><?php echo $row['apl_id'];?></td>
+                    </tr>
+                    <tr>
+                        <th scope="row" id="act_id">Nombre actor</th>
+                        <td><?php echo $row['act_nombre'];?></td>
+                    </tr>
+                    <tr>
+                        <th scope="row" id="pel_id">Nombre pelicula</th>
+                        <td><?php echo $row['pel_nombre'];?></td>
+                    </tr>
+                    <tr>
+                        <th scope="row" id="apl_papel">Papel</th>
+                        <td><?php echo $row['apl_papel'];?></td>
+                    </tr>
                     
             </tbody>
         </table>
 
         <div class="container">
-                    <div class="row">
-                         <div class="col-md-6"></div>
-                         <div class="col-md-3 offset-md-3">
-                         <button type="button" class="btn btn-danger"> <img src="../../img/lecho.png"></button>
-                        </div>
-             </div>
-
+            <form action="../../controller/actores_peliculas/delete.php" method="post">
+                <input type="hidden" name="apl_id" value = "<?php echo $row['apl_id'];?>">
+                <input type = "submit" value = "Eliminar" class = "btn btn-danger">
+            </form>
         </div>
+
+     </div>
         
       
 

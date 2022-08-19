@@ -1,4 +1,5 @@
 <?php include '../template/header.php' ?>
+<?php include '../../controller/actores_peliculas/delete.php'?>
 
 <section class="content">
     <div>
@@ -14,11 +15,11 @@
             </thead>
             <tbody>
             <tr>
-                    <th scope="row" id="soc_id">ID</th>
+                    <th scope="row" id="act_id">ID</th>
                     <td></td>
                 </tr>
                 <tr>
-                    <th scope="row" id="soc_nombre">Nombre</th>
+                    <th scope="row" id="act_nombre">Nombre</th>
                     <td></td>
                 <tr>
                     

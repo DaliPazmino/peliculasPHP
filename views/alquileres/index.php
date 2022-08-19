@@ -1,6 +1,6 @@
 
 <?php include '../template/header.php' ?>
-<?php include '../../model/conectar.php'?>
+<?php include '../../controller/alquileres/index.php' ?>
 
 <section class="content" >
    

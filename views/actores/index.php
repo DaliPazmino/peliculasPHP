@@ -1,13 +1,14 @@
 
 <?php include '../template/header.php' ?>
-<?php include '../../controller/actores/index.php' ?>
+<?php include '../../model/conectar.php'?>
 
 <section class="content" >
    
 
-
 <div class='container'  >
 
+<div class="container ">
+<div class="container">
   <div class="row">
     <div class="col align-self-start">
       <h3></h3>
@@ -73,6 +74,8 @@
 
   </div>
   
+</div>
+</div>
 </div>
 </div>
 

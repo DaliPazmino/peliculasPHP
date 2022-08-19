@@ -9,7 +9,7 @@
             <div class="col-md-8 success">
                 <label for="inputNombre" class="form-label text-success"></label>
                 <div class="input-group mb-3 ">
-                <span class="input-group-text text-white  "  id="soc_nombre"  style="background-color:#338b85;"> Nombre</span>
+                <span class="input-group-text text-white  "  id="gen_nombre"  style="background-color:#338b85;"> Nombre</span>
                 <input type="text" class="form-control" placeholder="ingresar nombre" aria-label="Username" aria-describedby="basic-addon1">
                 </div>
             </div>

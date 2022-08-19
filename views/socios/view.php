@@ -21,15 +21,15 @@
                     <th scope="row" id="soc_nombre">Nombre</th>
                     <td></td>
                 <tr>
-                    <th scope="row" id="soc_cedula">Cedula</th>
+                    <th scope="row" id="soc_cedula">Cédula</th>
                     <td></td>
                 </tr>
                 <tr>
-                    <th scope="row" id="soc_direccion">Direccion</th>
+                    <th scope="row" id="soc_direccion">Dirección</th>
                     <td></td>
                 </tr>
                 <tr>
-                    <th scope="row" id="soc_telefono">Telefono</th>
+                    <th scope="row" id="soc_telefono">Télefono</th>
                     <td></td>
                 </tr>
                 <tr>

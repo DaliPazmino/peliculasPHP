@@ -19,7 +19,7 @@
                 <label for="inputEmail" class="form-label text-success"></label>
 
                 <div class="input-group mb-3">
-                    <span class="input-group-text text-white" id="soc_cedula" style="background-color:#338b85;">Cedula</span>
+                    <span class="input-group-text text-white" id="soc_cedula" style="background-color:#338b85;">Cédula</span>
                     <input type="text" class="form-control" placeholder="ingrese cedula" aria-label="Username" aria-describedby="basic-addon1">
                     </div>
             </div>
@@ -27,7 +27,7 @@
                 <label for="inputDireccion" class="form-label text-success"></label>
                 
                 <div class="input-group mb-3">
-                <span class="input-group-text text-white" id="soc_direccion" style="background-color:#338b85;">Direccion</span>
+                <span class="input-group-text text-white" id="soc_direccion" style="background-color:#338b85;">Dirección</span>
                 <input type="text" class="form-control" placeholder="ingrese direccion" aria-label="Username" aria-describedby="basic-addon1">
                 </div>
                     
@@ -37,7 +37,7 @@
                 <label for="inputEmail" class="form-label text-success"></label>
 
                 <div class="input-group mb-3">
-                    <span class="input-group-text text-white" id="soc_telefono" style="background-color:#338b85;">Telfono</span>
+                    <span class="input-group-text text-white" id="soc_telefono" style="background-color:#338b85;">Teléfono</span>
                     <input type="text" class="form-control" placeholder="ingrese telefono" aria-label="Username" aria-describedby="basic-addon1">
                     </div>
             </div>

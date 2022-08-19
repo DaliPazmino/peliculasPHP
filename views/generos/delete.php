@@ -14,11 +14,11 @@
             </thead>
             <tbody>
             <tr>
-                    <th scope="row" id="soc_id">ID</th>
+                    <th scope="row" id="gen_id">ID</th>
                     <td></td>
                 </tr>
                 <tr>
-                    <th scope="row" id="soc_nombre">Nombre</th>
+                    <th scope="row" id="gen_nombre">Nombre</th>
                     <td></td>
                 <tr>
                     

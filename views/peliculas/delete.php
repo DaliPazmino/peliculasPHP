@@ -14,18 +14,22 @@
             </thead>
             <tbody>
             <tr>
-                    <th scope="row" id="soc_id">ID</th>
+                    <th scope="row" id="pel_id">ID</th>
                     <td></td>
                 </tr>
                 <tr>
-                    <th scope="row" id="soc_nombre">Nombre</th>
+                    <th scope="row" id="gen_id">ID Género</th>
                     <td></td>
                 <tr>
-                    <th scope="row" id="soc_cedula">Costo</th>
+                <tr>
+                    <th scope="row" id="pel_nombre">Nombre</th>
+                    <td></td>
+                <tr>
+                    <th scope="row" id="pel_costo">Costo</th>
                     <td></td>
                 </tr>
                 <tr>
-                    <th scope="row" id="soc_direccion">Fecha de estreno</th>
+                    <th scope="row" id="pel_fecha_estreno">Fecha de estreno</th>
                     <td></td>
                 </tr>
                

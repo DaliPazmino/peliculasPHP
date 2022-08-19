@@ -1,6 +1,7 @@
 
 <?php include '../template/header.php' ?>
 <?php include '../../model/conectar.php'?>
+<?php include '../../controller/generos/index.php' ?>
 
 <section class="content" >
    

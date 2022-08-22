@@ -1,8 +1,8 @@
 <?php include '../template/header.php' ?>
-<?php include '../../controller/peliculas/delete.php'?>
+<?php include '../../controller/peliculas/view.php'?>
 <section class="content">
     <div>
-        <H3>Eliminar socio</H3>
+        <H3>Datos de pelicula</H3>
         <br><br>
         <div class="container">
         <?php
@@ -39,11 +39,9 @@
             </tbody>
         </table>
         </div>
-        <form action="../../controller/peliculas/delete.php" method="post">
+        <form action="../../controller/peliculas/view.php" method="post">
             <input type="hidden" name="pel_id" value="<?php echo $row['pel_id'];?>">
-            <input type="submit" value="Eliminar" class="btn btn-danger">
         </form>
-
     </div>
 
 </section>

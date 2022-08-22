@@ -1,8 +1,8 @@
 <?php include '../template/header.php' ?>
-<?php include '../../controller/socios/delete.php'?>
+<?php include '../../controller/socios/view.php'?>
 <section class="content">
     <div>
-        <H3>Eliminar socio</H3>
+        <H3>Datos de socio</H3>
         <br>
         <div class="container">
         <?php
@@ -42,11 +42,9 @@
             </tbody>
         </table>
         </div>
-        <form action="../../controller/socios/delete.php" method="post">
+        <form action="../../controller/socios/view.php" method="post">
             <input type="hidden" name="soc_id" value="<?php echo $row['soc_id'];?>">
-            <input type="submit" value="Eliminar" class="btn btn-danger">
         </form>
-
     </div>
 
 </section>

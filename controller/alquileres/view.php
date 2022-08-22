@@ -19,17 +19,4 @@
     include '../../model/desconectar.php';
 
     }
-    include '../../model/conectar.php';
-
-    if(isset($_POST['alq_id'])){
-        $id = $_POST['alq_id'];
-        $sql = "DELETE FROM alquileres  WHERE alq_id =".$id;
-        $result = $conn->query($sql);
-        header('Location: ../../views/alquileres/index.php');
-        include '../../model/desconectar.php';
-
-    }
-    include '../../model/desconectar.php';
-
-
 ?>

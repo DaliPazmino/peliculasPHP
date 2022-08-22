@@ -1,7 +1,12 @@
 
 <?php include '../template/header.php' ?>
+<<<<<<< HEAD
 <?php include '../../controller/peliculas/index.php' ?>
 
+=======
+<?php include '../../model/conectar.php'?>
+<?php include '../../controller/peliculas/index.php' ?>
+>>>>>>> Andrés
 <section class="content" >
    
 

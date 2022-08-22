@@ -1,7 +1,12 @@
 
 <?php include '../template/header.php' ?>
+<<<<<<< HEAD
 <?php include '../../controller/generos/index.php' ?>
 
+=======
+<?php include '../../model/conectar.php'?>
+<?php include '../../controller/generos/index.php' ?>
+>>>>>>> Andrés
 
 <section class="content" >
    
@@ -45,20 +50,26 @@
   </thead>
   <tbody>
   <?php
-                  //Proceso de creacion de tabla y relleno de datos de la BDD
+                  
+                  $cont = 1;             
                     if ($result->num_rows > 0) {
-                      // output data of each row
+                      
                       while($row = $result->fetch_assoc()) {
+                         
                         echo '<tr>';
+                        echo '<th scope="row">'.$cont.'</th>';
                         echo '<th scope="row">'.$row["gen_id"].'</th>';
                         echo '<th scope="row">'.$row["gen_nombre"].'</th>';
                         echo '<th scope="row">
-                            <a class="text-success" href="update.php"><i class="fa-solid fa-pen"></i></a>
-                            <a href="view.php"><i class="fa-solid fa-search"></i></a>
-                            <a class="text-danger" href="delete.php"><i class="fa-solid fa-trash-can"></i></a>
+                            <a class="text-success" href="update.php"><button class="border border-0 rounded-top"><img src="../../img/lapiz.png" ></button></a>
+                            <a href="view.php"><button class="border border-0 rounded-top"><img src="../../img/buscando.png"></button></a>
+                            <a class="text-danger" href="delete.php"><button class="border border-0 rounded-top"><img src="../../img/lecho.png" ></button></a>
                         </th>';
+                        $cont ++;
                       }
-                    } else {
+                        
+                      }
+                      else {
                       echo "0 results";
                     }
                   ?>
@@ -69,6 +80,14 @@
 
       <td>
 
+<<<<<<< HEAD
+=======
+      <div>
+    
+      </div>
+    </div>
+
+>>>>>>> Andrés
 
       </td>
     </tr>

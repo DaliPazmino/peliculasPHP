@@ -42,8 +42,8 @@
   </thead>
   <tbody>
     <?php
+   
  if ($result->num_rows > 0) {
-  // output data of each row
   while($row = $result->fetch_assoc()) {
     echo '<tr>';
     echo '<th scope="row">'.$row["act_id"].'</th>';

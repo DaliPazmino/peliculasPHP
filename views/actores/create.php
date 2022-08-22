@@ -1,11 +1,11 @@
 <?php include '../template/header.php' ?>
-
+<?php include '../../controller/actores/create.php'?>
 <section class="content">
  
     <div class="container p-5  "  >
         <h2> Actor </h2>
   
-        <form class="row g-3 needs-validation" novalidate>
+        <form class="row g-3 needs-validation" action ="../../controller/actores/create.php" method = "POST" novalidate>
             <div class="col-md-8 success">
                 <label for="act_input" class="form-label text-success"></label>
                 <div class="input-group mb-3 ">

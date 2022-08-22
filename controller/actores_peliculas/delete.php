@@ -1,4 +1,7 @@
 <?php
+ include '../../model/conectar.php';
+    $sql = "SELECT * FROM actor_peliculas";
+    $result = $conn->query($sql);
 
 if(isset($_GET['apl_id']))
 {
@@ -28,5 +31,6 @@ include '../..model/conectar.php';
 
 }
 
+include '../../model/desconectar.php';
 ?>
 

@@ -1,4 +1,5 @@
 <?php include '../template/header.php' ?>
+<?php include '../../controller/actores_peliculas/update.php'?>
 
 <section class="content">
  

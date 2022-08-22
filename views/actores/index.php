@@ -1,6 +1,6 @@
 
 <?php include '../template/header.php' ?>
-<?php include '../../model/conectar.php'?>
+<?php include '../../controller/actores/index.php' ?>
 
 <section class="content" >
    
@@ -43,8 +43,8 @@
   </thead>
   <tbody>
     <?php
+   
  if ($result->num_rows > 0) {
-  // output data of each row
   while($row = $result->fetch_assoc()) {
     echo '<tr>';
     echo '<th scope="row">'.$row["act_id"].'</th>';

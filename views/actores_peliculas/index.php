@@ -34,9 +34,9 @@
 <table class="table text-white" >
   <thead>
     <tr>
-      <th scope="col"># Numero</th>
       <th scope="col">ID</th>
-      <th scope="col">Nombre</th>
+      <th scope="col">ID_Actor</th>
+      <th scope="col">ID_Pelicula</th>
       <th scope="col">Opciones</th>
       
     </tr>
@@ -70,25 +70,7 @@
 
       <td>
 
-      <div>
-      <div class="row row-cols-auto">
-        <div class="col">
-        <button class="border border-0 rounded-top">
-        <img src="../../img/lapiz.png" >
-        </button>
-        </div>
-        <div class="col">
-        <button class="border border-0 rounded-top">
-        <img src="../../img/buscando.png">
-        </button>
-        </div>
-        <div class="col">
-        <button class="border border-0 rounded-top">
-        <img src="../../img/lecho.png" >
-        </button>
-        </div>
-        </div>
-    </div>
+  
 
 
       </td>

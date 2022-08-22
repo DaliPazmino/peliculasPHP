@@ -13,6 +13,24 @@
                 <input type="text" class="form-control" placeholder="ingresar nombre" aria-label="Username" aria-describedby="basic-addon1">
                 </div>
             </div>
+
+            <div class="col-md-8 success">
+                <label for="inputNombre" class="form-label text-success"></label>
+                <div class="input-group mb-3 ">
+                <span class="input-group-text text-white  "  id="act_id " name="act_id"  style="background-color:#338b85;"> Nombre</span>
+                <input type="text" class="form-control" placeholder="ingresar nombre" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+            </div>
+
+            <div class="col-md-8 success">
+                <label for="inputNombre" class="form-label text-success"></label>
+                <div class="input-group mb-3 ">
+                <span class="input-group-text text-white  "  id=" " name="act_id"  style="background-color:#338b85;"> Nombre</span>
+                <input type="text" class="form-control" placeholder="ingresar nombre" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+            </div
+
+        
             
              
             

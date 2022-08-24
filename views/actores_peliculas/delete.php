@@ -1,10 +1,14 @@
 <?php include '../template/header.php' ?>
+<?php include '../../controller/actores_peliculas/delete.php'?>
 
 <section class="content">
     <div>
        
         <br><br>
         <div class="container p-5 ">
+        <?php
+                $row = $result->fetch_assoc();
+            ?>
         <table class="table table-success table-striped">
             <thead>
                 <tr>

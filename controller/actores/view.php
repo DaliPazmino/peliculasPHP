@@ -17,17 +17,4 @@
     include '../../model/desconectar.php';
 
     }
-    include '../../model/conectar.php';
-
-    if(isset($_POST['act_id'])){
-        $id = $_POST['act_id'];
-        $sql = "DELETE FROM actores  WHERE act_id =".$id;
-        $result = $conn->query($sql);
-        header('Location: ../../view/actores/index.php');
-        include '../../model/desconectar.php';
-
-    }
-    include '../../model/desconectar.php';
-
-
 ?>

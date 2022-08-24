@@ -1,4 +1,5 @@
 <?php include '../template/header.php' ?>
+<?php include '../../controller/actores_peliculas/create.php'?>
 
 <section class="content">
  
@@ -35,7 +36,7 @@
              
             
             <div class="container">
-                    <div class="row">
+                    <div class="row"> 
                          <div class="col-md-6"></div>
                          <div class="col-md-3 offset-md-3">
                          <button class="btn btn-success" type="submit"><img src="../../img/salvar.png" ></button>

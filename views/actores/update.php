@@ -1,16 +1,16 @@
 <?php include '../template/header.php' ?>
+<?php include '../../controller/actores/update.php'?>
 
 <section class="content">
- 
+<?php $row = $result -> fetch_assoc()?>
     <div class="container p-5  "  >
         <h2> </h2>
-  
-        <form class="row g-3 needs-validation" novalidate>
+    <form class="row g-3 needs-validation" action="../../controller/actores/update.php" method="post" novalidate>
             <div class="col-md-8 success">
                 <label for="act_input" class="form-label text-success"></label>
                 <div class="input-group mb-3 ">
                 <span class="input-group-text text-white  "  id="soc_nombre"  style="background-color:#338b85;"> Nombre</span>
-                <input type="text" id="act_nombre" class="form-control" placeholder="ingresar nombre" aria-label="Username" aria-describedby="basic-addon1">
+                <input type="text" id="act_nombre" name="act_nombre" class="form-control" placeholder="ingresar nombre" aria-label="Username" aria-describedby="basic-addon1">
                 </div>
             </div>
             

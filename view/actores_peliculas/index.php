@@ -9,7 +9,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col align-self-start">
-                        <h3>Generos</h3>
+                        <h3>Actores</h3>
                     </div>
                     <div class="col align-self-center">
 
@@ -55,9 +55,9 @@
                         echo '<th scope="row">'.$row["pel_nombre"].'</th>';
                         echo '<th scope="row">'.$row["apl_papel"].'</th>';
                         echo '<th scope="row">
-                        <a class="text-success" href="update.php?apl_id='.$row["apl_id"].'"><i class="fa-solid fa-pen"></i></a>
-                        <a href="view.php?apl_id='.$row["apl_id"].'"><i class="fa-solid fa-search"></i></a>
-                        <a class="text-danger" href="delete.php?apl_id='.$row["apl_id"].'"><i class="fa-solid fa-trash-can"></i></a>
+                        <a class="text-success" href="update.php?apl_id='.$row["apl_id"].'"><button class="border border-0 rounded-top"><img src="../../img/lapiz.png" ></button></a>
+                        <a href="view.php?apl_id='.$row["apl_id"].'"><button class="border border-0 rounded-top"><img src="../../img/buscando.png"></button></a>
+                        <a class="text-danger" href="delete.php?apl_id='.$row["apl_id"].'"><button class="border border-0 rounded-top"><img src="../../img/lecho.png" ></a>
                         </th>';
                       }
                     } else {

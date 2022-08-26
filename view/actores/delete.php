@@ -31,21 +31,10 @@
                 </tbody>
             </table>
 
-            <div class="container">
-
-                <div class="row">
-                    <div class="col-md-6"></div>
-                    <div class="col-md-3 offset-md-3">
-                        <form action="../../controller/actores/delete.php" method="post">
-                            <input type="hidden" name="act_id" value="<?php echo $row['act_id'];?>">
-                            <input type="submit" value="Eliminar" class="btn btn-danger">
-                        </form>
-                    </div>
-
-                </div>
-
-            </div>
-
+            <form action="../../controller/actores/delete.php" method="post">
+            <input type="hidden" name="act_id" value="<?php echo $row['act_id'];?>">
+            <input type="submit" value="Eliminar" class="btn btn-danger">
+            </form>
 
 
         </div>

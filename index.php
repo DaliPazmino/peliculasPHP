@@ -1,3 +1,3 @@
 <?php
-header('Location: views/dashboard/index.php'); 
+header('Location: view/dashboard/index.php'); 
 ?>

@@ -1,12 +1,7 @@
 
 <?php include '../template/header.php' ?>
-<<<<<<< HEAD
 <?php include '../../controller/socios/index.php' ?>
 
-=======
-<?php include '../../model/conectar.php'?>
-<?php include '../../controller/socios/index.php' ?>
->>>>>>> Andrés
 
 <section class="content" >
    
@@ -23,9 +18,7 @@
       
     </div>
     <div class="col align-self-end">
-      <button type="button" class="btn text-white"   style='background-color:#008d62;'>
-       Agregar   <img src="../../img/agregar-usuario.png" >
-      </button>
+                <a href="create.php"><button type="button" class="btn btn-success">Agregar</button></a>
     </div>
   </div>
 </div>
@@ -65,9 +58,9 @@
                         echo '<th scope="row">'.$row["soc_telefono"].'</th>';
                         echo '<th scope="row">'.$row["soc_correo"].'</th>';
                         echo '<th scope="row">
-                            <a class="text-success" href="update.php"><i class="fa-solid fa-pen"></i></a>
-                            <a href="view.php"><i class="fa-solid fa-search"></i></a>
-                            <a class="text-danger" href="delete.php"><i class="fa-solid fa-trash-can"></i></a>
+                            <a class="text-success" href="update.php"><button class="border border-0 rounded-top"><img src="../../img/lapiz.png" ></button></a>
+                            <a href="view.php"><button class="border border-0 rounded-top"><img src="../../img/buscando.png"></button></a></a>
+                            <a class="text-danger" href="delete.php"><button class="border border-0 rounded-top"><img src="../../img/lecho.png" ></a>
                             </th>';
                       }
                     } else {
@@ -86,23 +79,6 @@
       <td>
 
       <div>
-      <div class="row row-cols-auto">
-        <div class="col">
-        <button class="border border-0 rounded-top">
-        <img src="../../img/lapiz.png" >
-        </button>
-        </div>
-        <div class="col">
-        <button class="border border-0 rounded-top">
-        <img src="../../img/buscando.png">
-        </button>
-        </div>
-        <div class="col">
-        <button class="border border-0 rounded-top">
-        <img src="../../img/lecho.png" >
-        </button>
-        </div>
-        </div>
     </div>
 
 

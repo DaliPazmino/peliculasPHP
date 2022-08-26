@@ -15,9 +15,10 @@
 
                     </div>
                     <div class="col align-self-end">
-                        <button type="button" class="btn text-white" style='background-color:#008d62;'>
+                         <a href="create.php"> <button type="button" class="btn text-white" style='background-color:#008d62;'>
                             Agregar <img src="../../img/pelicula.png">
-                        </button>
+                         </button>
+                         </a>
                     </div>
                 </div>
             </div>

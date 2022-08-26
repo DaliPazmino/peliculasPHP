@@ -44,7 +44,7 @@
                 WHERE alq_id =".$alq_id;
         $result = $conn->query($sql);
         include '../../model/desconectar.php';
-        header('Location: ../../views/alquileres/index.php');
+        header('Location: ../../view/alquileres/index.php');
     }
     
 ?>

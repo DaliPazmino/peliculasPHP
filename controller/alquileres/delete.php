@@ -25,7 +25,7 @@
         $id = $_POST['alq_id'];
         $sql = "DELETE FROM alquileres  WHERE alq_id =".$id;
         $result = $conn->query($sql);
-        header('Location: ../../views/alquileres/index.php');
+        header('Location: ../../view/alquileres/index.php');
         include '../../model/desconectar.php';
 
     }

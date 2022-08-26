@@ -28,7 +28,7 @@
                 
                 <div class="input-group mb-3">
                 <span class="input-group-text text-white" id="pel_fecha_estreno" style="background-color:#338b85;">Fecha estreno</span>
-                <input type="text" class="form-control" placeholder="ingrese direccion" aria-label="Username" aria-describedby="basic-addon1">
+                <input type="text" class="form-control" id="pel_fecha_estreno" name="pel_fecha_estreno" placeholder="ingrese direccion" aria-label="Username" aria-describedby="basic-addon1">
                 </div>
                     
                

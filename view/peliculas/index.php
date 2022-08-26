@@ -1,12 +1,7 @@
 
 <?php include '../template/header.php' ?>
-<<<<<<< HEAD
-<?php include '../../controller/peliculas/index.php' ?>
 
-=======
-<?php include '../../model/conectar.php'?>
 <?php include '../../controller/peliculas/index.php' ?>
->>>>>>> Andrés
 <section class="content" >
    
 
@@ -38,83 +33,54 @@
 
   
 <table class="table text-white" >
-  <thead>
-    <tr>
-      <th scope="col"># Numero</th>
-      <th scope="col">ID</th>
-      <th scope="col">Gnero</th>
-      <th scope="col">Pelicula</th>
-      <th scope="col">Nombre</th>
-      <th scope="col">Costo</th>
-      <th scope="col">Fecha estreno</th>
-      <th scope="col">Opciones</th>
-    </tr>
-  </thead>
-  <tbody>
-  <?php
+<thead>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Genero</th>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Costo</th>
+                        <th scope="col">Estreno</th>
+                        <th scope="col" >Opciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                  <?php
                   //Proceso de creacion de tabla y relleno de datos de la BDD
                     if ($result->num_rows > 0) {
                       // output data of each row
                       while($row = $result->fetch_assoc()) {
                         echo '<tr>';
                         echo '<th scope="row">'.$row["pel_id"].'</th>';
-                        echo '<th scope="row">'.$row["gen_id"].'</th>';
+                        echo '<th scope="row">'.$row["gen_nombre"].'</th>';
                         echo '<th scope="row">'.$row["pel_nombre"].'</th>';
                         echo '<th scope="row">'.$row["pel_costo"].'</th>';
                         echo '<th scope="row">'.$row["pel_fecha_estreno"].'</th>';
                         echo '<th scope="row">
-                            <a class="text-success" href="update.php"><i class="fa-solid fa-pen"></i></a>
-                            <a href="view.php"><i class="fa-solid fa-search"></i></a>
-                            <a class="text-danger" href="delete.php"><i class="fa-solid fa-trash-can"></i></a>
+                            <a class="text-success" href="update.php?pel_id='.$row["pel_id"].'"><button class="border border-0 rounded-top"><img src="../../img/lapiz.png" ></button></a>
+                            <a href="view.php?pel_id='.$row["pel_id"].' "><button class="border border-0 rounded-top"><img src="../../img/buscando.png"></button></a></a>
+                            <a class="text-danger" href="delete.php?pel_id='.$row["pel_id"].'"><button class="border border-0 rounded-top"><img src="../../img/lecho.png" ></a>
                             </th>';
                       }
                     } else {
                       echo "0 results";
                     }
                   ?>
-    <tr>
-      <th scope="row"> </th>
-      <td>  </td>
-      <td>  </td>
-      <td>  </td>
-      <td>  </td>
-      <td>  </td>
-      <td>  </td>
+                    <tr>
+                        
+                        <td> </td>
+                        <td> </td>
 
-      <td>
+                        <td>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
-      <div>
-      <div class="row row-cols-auto">
-        <div class="col">
-        <button class="border border-0 rounded-top">
-        <img src="../../img/lapiz.png" >
-        </button>
-        </div>
-        <div class="col">
-        <button class="border border-0 rounded-top">
-        <img src="../../img/buscando.png">
-        </button>
-        </div>
-        <div class="col">
-        <button class="border border-0 rounded-top">
-        <img src="../../img/lecho.png" >
-        </button>
-        </div>
-        </div>
     </div>
 
-
-      </td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-  </div>
-  
-</div>
-</div>
-</div>
-</div>
-</section>
+            </div>
+        </div>
+    </div>
+<script src="https://kit.fontawesome.com/94ae563b14.js" crossorigin="anonymous"></script>
 <?php include '../template/footer.php' ?>

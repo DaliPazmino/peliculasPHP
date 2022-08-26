@@ -34,7 +34,7 @@
             <form action="../../controller/actores/delete.php" method="post">
             <input type="hidden" name="act_id" value="<?php echo $row['act_id'];?>">
             <input type="submit" value="Eliminar" class="btn btn-danger">
-            </form>
+        </form>
 
 
         </div>

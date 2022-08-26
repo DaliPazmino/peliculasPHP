@@ -9,7 +9,7 @@
         <?php
                 $row = $result->fetch_assoc();
         ?>
-        <table class="table">
+        <table class="table table-success table-striped"">
             <thead>
                 <tr>
                     <th scope="col"></th>

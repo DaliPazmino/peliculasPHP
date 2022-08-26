@@ -54,7 +54,7 @@
                                   echo '<th scope="row">'.$row["act_nombre"].'</th>';
                                   echo '<th scope="row">
                                       <a class="text-success" href="update.php?act_id='.$row["act_id"].'"><button class="border border-0 rounded-top"><img src="../../img/lapiz.png" ></button></a>
-                                      <a href="view.php?act_id='.$row["act_id"].'"><button class="border border-0 rounded-top"><img src="../../img/buscando.png"></button></a></a>
+                                      <a href="view.php?act_id='.$row["act_id"].'"><button class="border border-0 rounded-top"><img src="../../img/buscando.png"></button></a>
                                       <a class="text-danger" href="delete.php?act_id='.$row["act_id"].'"><button class="border border-0 rounded-top"><img src="../../img/lecho.png" ></a>
                                   </th>';
                                 }

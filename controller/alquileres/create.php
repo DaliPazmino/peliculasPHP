@@ -25,7 +25,7 @@
         VALUES (0,'".$soc_id."','".$pel_id."','".$alq_fecha_desde."','".$alq_fecha_hasta."',".$alq_valor.",'".$alq_fecha_entrega."')";
         $result = $conn->query($sql);
         include '../../model/desconectar.php';
-        header('Location: ../../views/alquileres/index.php');
+        header('Location: ../../view/alquileres/index.php');
     }
     
 ?>

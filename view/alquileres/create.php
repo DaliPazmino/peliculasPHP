@@ -14,7 +14,7 @@
                         while($row_pel = $result_pel->fetch_assoc()) {
                             echo '<option name="pel_id" value="'.$row_pel["pel_id"].'">'.$row_pel["pel_nombre"].'</option>';
                         }
-                    }a
+                    }
                     ?>
                 </select>
                 <div class="invalid-feedback">

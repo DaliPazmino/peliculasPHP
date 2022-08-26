@@ -18,17 +18,4 @@
     include '../../model/desconectar.php';
 
     }
-    include '../../model/conectar.php';
-
-    if(isset($_POST['apl_id'])){
-        $id = $_POST['apl_id'];
-        $sql = "DELETE FROM actor_peliculas  WHERE apl_id =".$id;
-        $result = $conn->query($sql);
-        header('Location: ../../view/actores_peliculas/index.php');
-        include '../../model/desconectar.php';
-
-    }
-    include '../../model/desconectar.php';
-
-
 ?>

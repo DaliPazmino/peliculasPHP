@@ -1,39 +1,42 @@
 <?php include '../template/header.php' ?>
 
 <section class="content">
- 
-    <div class="container p-5  "  >
-        <h2> Actor </h2>
-  
-        <form class="row g-3 needs-validation" novalidate>
-            <div class="col-md-8 success">
-                <label for="act_input" class="form-label text-success"></label>
-                <div class="input-group mb-3 ">
-                <span class="input-group-text text-white  "  id="act_nombre"  style="background-color:#338b85;"> Nombre</span>
-                <input type="text" class="form-control"  placeholder="ingresar nombre " aria-label="Username" aria-describedby="basic-addon1">
+
+    <div class="container p-3">
+    <h2>Nuevo Actor/Actriz</h2>
+        <form class="row g-3 needs-validation" action ="../../controller/actores/create.php" method = "POST" novalidate>
+            <div class="col-md-12">
+                <label for="act_input" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="act_nombre" name="act_nombre" placeholder="Ingrese el nombre de un actor/actriz" required>
+                <div class="valid-feedback">
+                    Válido!
+                </div>
+                <div id="inputEmail" class="invalid-feedback">
+                    Ingrese el nombre de un actor/actriz
                 </div>
             </div>
             
-             
-            
-            <div class="container">
-                    <div class="row">
-                         <div class="col-md-6"></div>
-                         <div class="col-md-3 offset-md-3">
-                         <button class="btn btn-success" type="submit"><img src="../../img/salvar.png" ></button>
-                        </div>
-             </div>
-            
-        
+            <div class="col-12">
+            <br><button class="btn btn-success" type="submit"><i class="fa-solid fa-floppy-disk p-1"></i>Grabar</button>
+            </div>
         </form>
     </div>
-
 </section>
 <script>
+        (function () {
+            'use strict'
+            var forms = document.querySelectorAll('.needs-validation')
+            Array.prototype.slice.call(forms)
+                .forEach(function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (!form.checkValidity()) {
+                            event.preventDefault()
+                            event.stopPropagation()
+                        }
+
+                        form.classList.add('was-validated')
+                    }, false)
+                })
+        })()
     </script>
 <?php include '../template/footer.php' ?>
-
-
-
-
-
